@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Cleromancer - The Divine Decision Maker </title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+    <script type="text/javascript" src="cleromancer.js"></script>
+</head>
+
+<body>
+    <h1> Cleromancer </h1>
+    <div id="errors"></div>
+    <form id="cleromancerForm">
+      <div>
+        Number of Choices:
+        <input type="number" id="nChoices" value="1"> 
+      </div>
+      <div>
+        <input type="button" id="insertNewChoice" value="Insert New Choice">
+        <input type="button" id="decide" value="Decide">
+      </div>
+      <ol id="choiceList"></ol>
+    </form>
+    <p class="resultText" style="display:none"> Result: <span id="resultOutput"></span></p> 
+</body>
