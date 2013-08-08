@@ -11,7 +11,8 @@ function createNewChoice() {
 
 $(document).ready(function() {
     var nChoices = $('#nChoices');
-    var choiceList = $('#choiceList'), resultOutput = $('#resultOutput');
+    var choiceList = $('#choiceList');
+    var resultOutput = $('#resultOutput');
     choiceList.append(createNewChoice());
     choiceList.append(createNewChoice());
     $('#insertNewChoice').click(function(event) {
